@@ -1,0 +1,50 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.searchBtn {
+  width: 96%;
+}
+.search-container {
+  display: block;
+  margin: 64px auto 32px;
+  width: 80%;
+}
+.search-container button:hover {
+  background: #ccc;
+}
+.paginationBlock {
+  position: relative;
+}
+.pagination {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
